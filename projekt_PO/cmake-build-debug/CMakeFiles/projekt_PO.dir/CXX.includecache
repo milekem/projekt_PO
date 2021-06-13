@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/milos/CLionProjects/projekt_PO/Input.h
+LiczbaZespolona.h
+C:/Users/milos/CLionProjects/projekt_PO/LiczbaZespolona.h
+
+C:/Users/milos/CLionProjects/projekt_PO/LiczbaZespolona.h
+
+C:/Users/milos/CLionProjects/projekt_PO/Print.cpp
+iostream
+-
+Print.h
+C:/Users/milos/CLionProjects/projekt_PO/Print.h
+
+C:/Users/milos/CLionProjects/projekt_PO/Print.h
+LiczbaZespolona.h
+C:/Users/milos/CLionProjects/projekt_PO/LiczbaZespolona.h
+
+C:/Users/milos/CLionProjects/projekt_PO/main.cpp
+iostream
+-
+LiczbaZespolona.h
+C:/Users/milos/CLionProjects/projekt_PO/LiczbaZespolona.h
+Print.h
+C:/Users/milos/CLionProjects/projekt_PO/Print.h
+Input.h
+C:/Users/milos/CLionProjects/projekt_PO/Input.h
+
