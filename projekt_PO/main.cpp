@@ -9,7 +9,7 @@ int main()
 {
     LiczbaZespolona l1;
     LiczbaZespolona l2;	  //inicjalizacja obiektow
-    LiczbaZespolona l3;
+    LiczbaZespolona *l3 = new LiczbaZespolona(2.3, 3.4); //dynamiczny przydział pamięci
 
 
     cout<<" KALKULATOR LICZB ZESPOLONYCH "<<endl; //Welcome screen
@@ -27,22 +27,21 @@ int main()
     cout<<endl<<endl;
 
     cout<<"Wynik dodawania:  "<<endl;
-    l3= l1 + l2;
-    l3.PrintLiczba();
+    l3->operator=(l1+l2);
+    l3->PrintLiczba();
 
 
     cout<<"Wynik odejmowania: "<<endl;
-    l3= l1 - l2;
-    l3.PrintLiczba();
+    l3->operator=(l1-l2);
+    l3->PrintLiczba();
 
     cout<<"Wynik mnozenia: "<<endl;
-    l3= l1 * l2;
-    l3.PrintLiczba();
+    l3->operator=(l1*l2);
+    l3->PrintLiczba();
 
     cout<<"Wynik dzielenia: "<<endl;
-    l3= l1 / l2;
-    l3.PrintLiczba();
-
+    l3->operator=(l1/l2);
+    l3->PrintLiczba();
 
     char ch;
     cin>>ch;
